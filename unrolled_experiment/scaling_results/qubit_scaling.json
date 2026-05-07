@@ -1,0 +1,299 @@
+[
+  {
+    "t": 1,
+    "n": 3,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 7,
+    "data_qubits": 6,
+    "ancilla_qubits": 1
+  },
+  {
+    "t": 1,
+    "n": 5,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 12,
+    "data_qubits": 10,
+    "ancilla_qubits": 2
+  },
+  {
+    "t": 1,
+    "n": 7,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 17,
+    "data_qubits": 14,
+    "ancilla_qubits": 3
+  },
+  {
+    "t": 1,
+    "n": 9,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 22,
+    "data_qubits": 18,
+    "ancilla_qubits": 4
+  },
+  {
+    "t": 1,
+    "n": 11,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 27,
+    "data_qubits": 22,
+    "ancilla_qubits": 5
+  },
+  {
+    "t": 1,
+    "n": 13,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 32,
+    "data_qubits": 26,
+    "ancilla_qubits": 6
+  },
+  {
+    "t": 1,
+    "n": 15,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 37,
+    "data_qubits": 30,
+    "ancilla_qubits": 7
+  },
+  {
+    "t": 1,
+    "n": 17,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 42,
+    "data_qubits": 34,
+    "ancilla_qubits": 8
+  },
+  {
+    "t": 1,
+    "n": 19,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 47,
+    "data_qubits": 38,
+    "ancilla_qubits": 9
+  },
+  {
+    "t": 1,
+    "n": 21,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 52,
+    "data_qubits": 42,
+    "ancilla_qubits": 10
+  },
+  {
+    "t": 1,
+    "n": 23,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 57,
+    "data_qubits": 46,
+    "ancilla_qubits": 11
+  },
+  {
+    "t": 2,
+    "n": 3,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 8,
+    "data_qubits": 6,
+    "ancilla_qubits": 2
+  },
+  {
+    "t": 2,
+    "n": 5,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 14,
+    "data_qubits": 10,
+    "ancilla_qubits": 4
+  },
+  {
+    "t": 2,
+    "n": 7,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 20,
+    "data_qubits": 14,
+    "ancilla_qubits": 6
+  },
+  {
+    "t": 2,
+    "n": 9,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 26,
+    "data_qubits": 18,
+    "ancilla_qubits": 8
+  },
+  {
+    "t": 2,
+    "n": 11,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 32,
+    "data_qubits": 22,
+    "ancilla_qubits": 10
+  },
+  {
+    "t": 2,
+    "n": 13,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 38,
+    "data_qubits": 26,
+    "ancilla_qubits": 12
+  },
+  {
+    "t": 2,
+    "n": 15,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 44,
+    "data_qubits": 30,
+    "ancilla_qubits": 14
+  },
+  {
+    "t": 2,
+    "n": 17,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 50,
+    "data_qubits": 34,
+    "ancilla_qubits": 16
+  },
+  {
+    "t": 2,
+    "n": 19,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 56,
+    "data_qubits": 38,
+    "ancilla_qubits": 18
+  },
+  {
+    "t": 2,
+    "n": 21,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 62,
+    "data_qubits": 42,
+    "ancilla_qubits": 20
+  },
+  {
+    "t": 2,
+    "n": 23,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 68,
+    "data_qubits": 46,
+    "ancilla_qubits": 22
+  },
+  {
+    "t": 3,
+    "n": 3,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 9,
+    "data_qubits": 6,
+    "ancilla_qubits": 3
+  },
+  {
+    "t": 3,
+    "n": 5,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 16,
+    "data_qubits": 10,
+    "ancilla_qubits": 6
+  },
+  {
+    "t": 3,
+    "n": 7,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 23,
+    "data_qubits": 14,
+    "ancilla_qubits": 9
+  },
+  {
+    "t": 3,
+    "n": 9,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 30,
+    "data_qubits": 18,
+    "ancilla_qubits": 12
+  },
+  {
+    "t": 3,
+    "n": 11,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 37,
+    "data_qubits": 22,
+    "ancilla_qubits": 15
+  },
+  {
+    "t": 3,
+    "n": 13,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 44,
+    "data_qubits": 26,
+    "ancilla_qubits": 18
+  },
+  {
+    "t": 3,
+    "n": 15,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 51,
+    "data_qubits": 30,
+    "ancilla_qubits": 21
+  },
+  {
+    "t": 3,
+    "n": 17,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 58,
+    "data_qubits": 34,
+    "ancilla_qubits": 24
+  },
+  {
+    "t": 3,
+    "n": 19,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 65,
+    "data_qubits": 38,
+    "ancilla_qubits": 27
+  },
+  {
+    "t": 3,
+    "n": 21,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 72,
+    "data_qubits": 42,
+    "ancilla_qubits": 30
+  },
+  {
+    "t": 3,
+    "n": 23,
+    "k": 2,
+    "no_reset": true,
+    "num_qubits": 79,
+    "data_qubits": 46,
+    "ancilla_qubits": 33
+  }
+]
