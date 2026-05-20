@@ -1,0 +1,149 @@
+{
+  "n": 3,
+  "k": 2,
+  "t": 1,
+  "transpile_seeds": 10,
+  "opt_level": 3,
+  "backend": "ibm_pittsburgh",
+  "no_reset": false,
+  "paths": {
+    "path_0": {
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 20,
+      "depth": 62,
+      "gate_counts": {
+        "sx": 36,
+        "rz": 27,
+        "cz": 20,
+        "measure": 3,
+        "x": 1,
+        "reset": 1
+      },
+      "all_seed_stats": [
+        {
+          "seed": 0,
+          "2q_depth": 18,
+          "2q_gates": 20
+        },
+        {
+          "seed": 1,
+          "2q_depth": 18,
+          "2q_gates": 20
+        },
+        {
+          "seed": 2,
+          "2q_depth": 18,
+          "2q_gates": 20
+        },
+        {
+          "seed": 3,
+          "2q_depth": 18,
+          "2q_gates": 20
+        },
+        {
+          "seed": 4,
+          "2q_depth": 18,
+          "2q_gates": 20
+        },
+        {
+          "seed": 5,
+          "2q_depth": 18,
+          "2q_gates": 20
+        },
+        {
+          "seed": 6,
+          "2q_depth": 18,
+          "2q_gates": 20
+        },
+        {
+          "seed": 7,
+          "2q_depth": 18,
+          "2q_gates": 20
+        },
+        {
+          "seed": 8,
+          "2q_depth": 18,
+          "2q_gates": 20
+        },
+        {
+          "seed": 9,
+          "2q_depth": 18,
+          "2q_gates": 20
+        }
+      ],
+      "qpy_file": "path_0.qpy",
+      "pre_image": "path_0_pre.png",
+      "post_image": "path_0_post.png"
+    },
+    "path_1": {
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 20,
+      "depth": 62,
+      "gate_counts": {
+        "sx": 36,
+        "rz": 27,
+        "cz": 20,
+        "measure": 3,
+        "x": 1,
+        "reset": 1
+      },
+      "all_seed_stats": [
+        {
+          "seed": 0,
+          "2q_depth": 18,
+          "2q_gates": 20
+        },
+        {
+          "seed": 1,
+          "2q_depth": 18,
+          "2q_gates": 20
+        },
+        {
+          "seed": 2,
+          "2q_depth": 18,
+          "2q_gates": 20
+        },
+        {
+          "seed": 3,
+          "2q_depth": 18,
+          "2q_gates": 20
+        },
+        {
+          "seed": 4,
+          "2q_depth": 18,
+          "2q_gates": 20
+        },
+        {
+          "seed": 5,
+          "2q_depth": 18,
+          "2q_gates": 20
+        },
+        {
+          "seed": 6,
+          "2q_depth": 18,
+          "2q_gates": 20
+        },
+        {
+          "seed": 7,
+          "2q_depth": 18,
+          "2q_gates": 20
+        },
+        {
+          "seed": 8,
+          "2q_depth": 18,
+          "2q_gates": 20
+        },
+        {
+          "seed": 9,
+          "2q_depth": 18,
+          "2q_gates": 20
+        }
+      ],
+      "qpy_file": "path_1.qpy",
+      "pre_image": "path_1_pre.png",
+      "post_image": "path_1_post.png"
+    }
+  }
+}

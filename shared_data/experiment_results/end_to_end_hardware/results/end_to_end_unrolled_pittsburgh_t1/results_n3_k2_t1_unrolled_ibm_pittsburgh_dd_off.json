@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "n": 3,
+    "k": 2,
+    "t": 1,
+    "dd_mode": "off",
+    "dd_sequence": null,
+    "dd_skip_reset_qubits": null,
+    "n_random": 5000,
+    "shots_per_circuit": 3,
+    "batch_size": 5000,
+    "backend": "ibm_pittsburgh",
+    "transpile_seeds": 10,
+    "opt_level": 3,
+    "job_tags_project": "QPA"
+  },
+  "results": [
+    {
+      "lambda": 0.0,
+      "fidelity": 0.9541999999999999,
+      "job_ids": "d82k657oha1c73blm9t0,d82k85egbeec73althng",
+      "n_batches": 2
+    },
+    {
+      "lambda": 0.1,
+      "fidelity": 0.8965333333333334,
+      "job_ids": "d82k9amgbeec73altivg,d82kagugbeec73altkbg",
+      "n_batches": 2
+    },
+    {
+      "lambda": 0.2,
+      "fidelity": 0.834,
+      "job_ids": "d82kbmftjchs73bo6c30,d82kcr7oha1c73blmh10",
+      "n_batches": 2
+    },
+    {
+      "lambda": 0.3,
+      "fidelity": 0.7765333333333333,
+      "job_ids": "d82ke1g0bvlc73d2dqrg,d82kf6ugbeec73altp7g",
+      "n_batches": 2
+    },
+    {
+      "lambda": 0.4,
+      "fidelity": 0.7126666666666668,
+      "job_ids": "d82kggntjchs73bo6h1g,d82khmmgbeec73altsb0",
+      "n_batches": 2
+    },
+    {
+      "lambda": 0.5,
+      "fidelity": 0.6545333333333334,
+      "job_ids": "d82kis6gbeec73alttkg,d82kk180bvlc73d2e1kg",
+      "n_batches": 2
+    },
+    {
+      "lambda": 0.6,
+      "fidelity": 0.5658,
+      "job_ids": "d82kl7foha1c73blmqh0,d82kmco0bvlc73d2e4gg",
+      "n_batches": 2
+    },
+    {
+      "lambda": 0.7,
+      "fidelity": 0.49873333333333336,
+      "job_ids": "d82knj6gbeec73alu3eg,d82kopmgbeec73alu4rg",
+      "n_batches": 2
+    },
+    {
+      "lambda": 0.8,
+      "fidelity": 0.40226666666666666,
+      "job_ids": "d82kq1vtjchs73bo6s80,d82kr7ntjchs73bo6tig",
+      "n_batches": 2
+    },
+    {
+      "lambda": 0.9,
+      "fidelity": 0.33753333333333335,
+      "job_ids": "d82m1h7oha1c73blojkg,d82n58foha1c73blq6c0",
+      "n_batches": 2
+    }
+  ]
+}

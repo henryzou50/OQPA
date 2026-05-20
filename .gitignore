@@ -5,5 +5,4 @@ archive_v3/.env
 reqs/Miniconda3-latest-MacOSX-x86_64.sh
 __pycache__
 .vscode/
-data
 .env

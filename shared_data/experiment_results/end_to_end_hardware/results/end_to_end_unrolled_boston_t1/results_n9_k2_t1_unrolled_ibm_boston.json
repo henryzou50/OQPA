@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "n": 9,
+    "k": 2,
+    "t": 1,
+    "n_random": 5000,
+    "shots_per_circuit": 3,
+    "batch_size": 5000,
+    "backend": "ibm_boston",
+    "transpile_seeds": 10,
+    "opt_level": 3
+  },
+  "results": [
+    {
+      "lambda": 0.0,
+      "fidelity": 0.8389662084645362
+    },
+    {
+      "lambda": 0.1,
+      "fidelity": 0.8581333333333335
+    },
+    {
+      "lambda": 0.2,
+      "fidelity": 0.8072666666666667
+    },
+    {
+      "lambda": 0.3,
+      "fidelity": 0.7670857142857145
+    }
+  ]
+}

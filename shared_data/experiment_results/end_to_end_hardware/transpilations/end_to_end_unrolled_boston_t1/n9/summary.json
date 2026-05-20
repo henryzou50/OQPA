@@ -1,0 +1,395 @@
+{
+  "n": 9,
+  "k": 2,
+  "t": 1,
+  "transpile_seeds": 1,
+  "opt_level": 3,
+  "backend": "ibm_boston",
+  "no_reset": false,
+  "paths": {
+    "path_0": {
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 80,
+      "depth": 62,
+      "gate_counts": {
+        "sx": 144,
+        "rz": 108,
+        "cz": 80,
+        "measure": 6,
+        "x": 5,
+        "reset": 4
+      },
+      "all_seed_stats": [
+        {
+          "seed": 0,
+          "2q_depth": 18,
+          "2q_gates": 80
+        }
+      ],
+      "qpy_file": "path_0.qpy",
+      "pre_image": "path_0_pre.png",
+      "post_image": "path_0_post.png"
+    },
+    "path_1": {
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 80,
+      "depth": 62,
+      "gate_counts": {
+        "sx": 144,
+        "rz": 108,
+        "cz": 80,
+        "measure": 6,
+        "x": 5,
+        "reset": 4
+      },
+      "all_seed_stats": [
+        {
+          "seed": 0,
+          "2q_depth": 18,
+          "2q_gates": 80
+        }
+      ],
+      "qpy_file": "path_1.qpy",
+      "pre_image": "path_1_pre.png",
+      "post_image": "path_1_post.png"
+    },
+    "path_2": {
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 80,
+      "depth": 62,
+      "gate_counts": {
+        "sx": 144,
+        "rz": 108,
+        "cz": 80,
+        "measure": 6,
+        "x": 5,
+        "reset": 4
+      },
+      "all_seed_stats": [
+        {
+          "seed": 0,
+          "2q_depth": 18,
+          "2q_gates": 80
+        }
+      ],
+      "qpy_file": "path_2.qpy",
+      "pre_image": "path_2_pre.png",
+      "post_image": "path_2_post.png"
+    },
+    "path_3": {
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 80,
+      "depth": 62,
+      "gate_counts": {
+        "sx": 144,
+        "rz": 108,
+        "cz": 80,
+        "measure": 6,
+        "x": 5,
+        "reset": 4
+      },
+      "all_seed_stats": [
+        {
+          "seed": 0,
+          "2q_depth": 18,
+          "2q_gates": 80
+        }
+      ],
+      "qpy_file": "path_3.qpy",
+      "pre_image": "path_3_pre.png",
+      "post_image": "path_3_post.png"
+    },
+    "path_4": {
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 80,
+      "depth": 62,
+      "gate_counts": {
+        "sx": 144,
+        "rz": 108,
+        "cz": 80,
+        "measure": 6,
+        "x": 5,
+        "reset": 4
+      },
+      "all_seed_stats": [
+        {
+          "seed": 0,
+          "2q_depth": 18,
+          "2q_gates": 80
+        }
+      ],
+      "qpy_file": "path_4.qpy",
+      "pre_image": "path_4_pre.png",
+      "post_image": "path_4_post.png"
+    },
+    "path_5": {
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 80,
+      "depth": 62,
+      "gate_counts": {
+        "sx": 144,
+        "rz": 108,
+        "cz": 80,
+        "measure": 6,
+        "x": 5,
+        "reset": 4
+      },
+      "all_seed_stats": [
+        {
+          "seed": 0,
+          "2q_depth": 18,
+          "2q_gates": 80
+        }
+      ],
+      "qpy_file": "path_5.qpy",
+      "pre_image": "path_5_pre.png",
+      "post_image": "path_5_post.png"
+    },
+    "path_6": {
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 80,
+      "depth": 62,
+      "gate_counts": {
+        "sx": 144,
+        "rz": 108,
+        "cz": 80,
+        "measure": 6,
+        "x": 5,
+        "reset": 4
+      },
+      "all_seed_stats": [
+        {
+          "seed": 0,
+          "2q_depth": 18,
+          "2q_gates": 80
+        }
+      ],
+      "qpy_file": "path_6.qpy",
+      "pre_image": "path_6_pre.png",
+      "post_image": "path_6_post.png"
+    },
+    "path_7": {
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 80,
+      "depth": 62,
+      "gate_counts": {
+        "sx": 144,
+        "rz": 108,
+        "cz": 80,
+        "measure": 6,
+        "x": 5,
+        "reset": 4
+      },
+      "all_seed_stats": [
+        {
+          "seed": 0,
+          "2q_depth": 18,
+          "2q_gates": 80
+        }
+      ],
+      "qpy_file": "path_7.qpy",
+      "pre_image": "path_7_pre.png",
+      "post_image": "path_7_post.png"
+    },
+    "path_8": {
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 80,
+      "depth": 62,
+      "gate_counts": {
+        "sx": 144,
+        "rz": 108,
+        "cz": 80,
+        "measure": 6,
+        "x": 5,
+        "reset": 4
+      },
+      "all_seed_stats": [
+        {
+          "seed": 0,
+          "2q_depth": 18,
+          "2q_gates": 80
+        }
+      ],
+      "qpy_file": "path_8.qpy",
+      "pre_image": "path_8_pre.png",
+      "post_image": "path_8_post.png"
+    },
+    "path_9": {
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 80,
+      "depth": 62,
+      "gate_counts": {
+        "sx": 144,
+        "rz": 108,
+        "cz": 80,
+        "measure": 6,
+        "x": 5,
+        "reset": 4
+      },
+      "all_seed_stats": [
+        {
+          "seed": 0,
+          "2q_depth": 18,
+          "2q_gates": 80
+        }
+      ],
+      "qpy_file": "path_9.qpy",
+      "pre_image": "path_9_pre.png",
+      "post_image": "path_9_post.png"
+    },
+    "path_10": {
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 80,
+      "depth": 62,
+      "gate_counts": {
+        "sx": 144,
+        "rz": 108,
+        "cz": 80,
+        "measure": 6,
+        "x": 5,
+        "reset": 4
+      },
+      "all_seed_stats": [
+        {
+          "seed": 0,
+          "2q_depth": 18,
+          "2q_gates": 80
+        }
+      ],
+      "qpy_file": "path_10.qpy",
+      "pre_image": "path_10_pre.png",
+      "post_image": "path_10_post.png"
+    },
+    "path_11": {
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 80,
+      "depth": 62,
+      "gate_counts": {
+        "sx": 144,
+        "rz": 108,
+        "cz": 80,
+        "measure": 6,
+        "x": 5,
+        "reset": 4
+      },
+      "all_seed_stats": [
+        {
+          "seed": 0,
+          "2q_depth": 18,
+          "2q_gates": 80
+        }
+      ],
+      "qpy_file": "path_11.qpy",
+      "pre_image": "path_11_pre.png",
+      "post_image": "path_11_post.png"
+    },
+    "path_12": {
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 80,
+      "depth": 62,
+      "gate_counts": {
+        "sx": 144,
+        "rz": 108,
+        "cz": 80,
+        "measure": 6,
+        "x": 5,
+        "reset": 4
+      },
+      "all_seed_stats": [
+        {
+          "seed": 0,
+          "2q_depth": 18,
+          "2q_gates": 80
+        }
+      ],
+      "qpy_file": "path_12.qpy",
+      "pre_image": "path_12_pre.png",
+      "post_image": "path_12_post.png"
+    },
+    "path_13": {
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 80,
+      "depth": 62,
+      "gate_counts": {
+        "sx": 144,
+        "rz": 108,
+        "cz": 80,
+        "measure": 6,
+        "x": 5,
+        "reset": 4
+      },
+      "all_seed_stats": [
+        {
+          "seed": 0,
+          "2q_depth": 18,
+          "2q_gates": 80
+        }
+      ],
+      "qpy_file": "path_13.qpy",
+      "pre_image": "path_13_pre.png",
+      "post_image": "path_13_post.png"
+    },
+    "path_14": {
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 80,
+      "depth": 62,
+      "gate_counts": {
+        "sx": 144,
+        "rz": 108,
+        "cz": 80,
+        "measure": 6,
+        "x": 5,
+        "reset": 4
+      },
+      "all_seed_stats": [
+        {
+          "seed": 0,
+          "2q_depth": 18,
+          "2q_gates": 80
+        }
+      ],
+      "qpy_file": "path_14.qpy",
+      "pre_image": "path_14_pre.png",
+      "post_image": "path_14_post.png"
+    },
+    "path_15": {
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 80,
+      "depth": 62,
+      "gate_counts": {
+        "sx": 144,
+        "rz": 108,
+        "cz": 80,
+        "measure": 6,
+        "x": 5,
+        "reset": 4
+      },
+      "all_seed_stats": [
+        {
+          "seed": 0,
+          "2q_depth": 18,
+          "2q_gates": 80
+        }
+      ],
+      "qpy_file": "path_15.qpy",
+      "pre_image": "path_15_pre.png",
+      "post_image": "path_15_post.png"
+    }
+  }
+}

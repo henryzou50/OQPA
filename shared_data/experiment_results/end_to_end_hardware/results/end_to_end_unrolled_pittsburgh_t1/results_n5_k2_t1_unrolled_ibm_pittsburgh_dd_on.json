@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "n": 5,
+    "k": 2,
+    "t": 1,
+    "dd_mode": "on",
+    "dd_sequence": "XpXm",
+    "dd_skip_reset_qubits": true,
+    "n_random": 5000,
+    "shots_per_circuit": 3,
+    "batch_size": 5000,
+    "backend": "ibm_pittsburgh",
+    "transpile_seeds": 10,
+    "opt_level": 3,
+    "job_tags_project": "QPA"
+  },
+  "results": [
+    {
+      "lambda": 0.0,
+      "fidelity": 0.9123333333333333,
+      "job_ids": "d82vano0bvlc73d2qurg,d82vdnftjchs73boj8j0,d82vg9mgbeec73ambci0,d82vismgbeec73ambfig",
+      "n_batches": 4
+    },
+    {
+      "lambda": 0.1,
+      "fidelity": 0.8920000000000001,
+      "job_ids": "d82vleegbeec73ambijg,d82vo0foha1c73bm43ag,d82vq3voha1c73bm45h0,d82vsbugbeec73ambq4g",
+      "n_batches": 4
+    },
+    {
+      "lambda": 0.2,
+      "fidelity": 0.8506666666666667,
+      "job_ids": "d82vui7tjchs73bojqpg,d8300iugbeec73ambufg,d8302jnoha1c73bm4ea0,d8304jmgbeec73amc2gg",
+      "n_batches": 4
+    },
+    {
+      "lambda": 0.3,
+      "fidelity": 0.7948,
+      "job_ids": "d8306mmgbeec73amc50g,d8308mntjchs73bok5ag,d830anfoha1c73bm4nsg,d830cu6gbeec73amcd20",
+      "n_batches": 4
+    },
+    {
+      "lambda": 0.4,
+      "fidelity": 0.7266666666666667,
+      "job_ids": "d830f3mgbeec73amcfug,d830hbo0bvlc73d2s9qg,d830je6gbeec73amcl00,d830lmo0bvlc73d2sep0",
+      "n_batches": 4
+    },
+    {
+      "lambda": 0.5,
+      "fidelity": 0.6398666666666667,
+      "job_ids": "d830nsg0bvlc73d2sh0g,d830q4voha1c73bm59dg,d830s7noha1c73bm5bgg,d830ubmgbeec73amd170",
+      "n_batches": 4
+    },
+    {
+      "lambda": 0.6,
+      "fidelity": 0.5898666666666667,
+      "job_ids": "d8310ig0bvlc73d2sq6g,d8312ontjchs73bol1pg,d83153voha1c73bm5kk0,d83179ftjchs73bol6ig",
+      "n_batches": 4
+    },
+    {
+      "lambda": 0.7,
+      "fidelity": 0.5019333333333333,
+      "job_ids": "d8319hugbeec73amddog,d831bn6gbeec73amdg2g,d831dqnoha1c73bm5u5g,d831g1foha1c73bm60v0",
+      "n_batches": 4
+    },
+    {
+      "lambda": 0.8,
+      "fidelity": 0.42100000000000004,
+      "job_ids": "d831i5o0bvlc73d2tea0,d831k9vtjchs73bollo0,d831mgfoha1c73bm69ug,d831omfoha1c73bm6cog",
+      "n_batches": 4
+    },
+    {
+      "lambda": 0.9,
+      "fidelity": 0.3315333333333333,
+      "job_ids": "d831qpftjchs73boltig,d831srugbeec73ame6cg,d831utegbeec73ame8n0,d83218g0bvlc73d2u010",
+      "n_batches": 4
+    }
+  ]
+}

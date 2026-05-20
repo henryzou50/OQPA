@@ -1,0 +1,301 @@
+{
+  "meta": {
+    "backend": "ibm_boston",
+    "k": 2,
+    "t": 1,
+    "n_values": [
+      3,
+      5,
+      7
+    ],
+    "lambdas": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9
+    ],
+    "n_random": 5000,
+    "shots_per_circuit": 3,
+    "batch_size": 5000,
+    "transpile_seeds": 10,
+    "opt_level": 3
+  },
+  "results": [
+    {
+      "n": 3,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.0,
+      "fidelity_experiment": 0.9784666666666666,
+      "fidelity_theory": 1.0,
+      "delta": -0.021533333333333404
+    },
+    {
+      "n": 3,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.1,
+      "fidelity_experiment": 0.943,
+      "fidelity_theory": 0.966625,
+      "delta": -0.023625000000000007
+    },
+    {
+      "n": 3,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.2,
+      "fidelity_experiment": 0.8837333333333334,
+      "fidelity_theory": 0.9179999999999999,
+      "delta": -0.034266666666666556
+    },
+    {
+      "n": 3,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.3,
+      "fidelity_experiment": 0.8244666666666667,
+      "fidelity_theory": 0.8563750000000001,
+      "delta": -0.03190833333333343
+    },
+    {
+      "n": 3,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.4,
+      "fidelity_experiment": 0.7383333333333334,
+      "fidelity_theory": 0.784,
+      "delta": -0.04566666666666663
+    },
+    {
+      "n": 3,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.5,
+      "fidelity_experiment": 0.6782666666666666,
+      "fidelity_theory": 0.703125,
+      "delta": -0.024858333333333427
+    },
+    {
+      "n": 3,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.6,
+      "fidelity_experiment": 0.5847333333333333,
+      "fidelity_theory": 0.6159999999999999,
+      "delta": -0.031266666666666554
+    },
+    {
+      "n": 3,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.7,
+      "fidelity_experiment": 0.5113333333333334,
+      "fidelity_theory": 0.524875,
+      "delta": -0.013541666666666563
+    },
+    {
+      "n": 3,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.8,
+      "fidelity_experiment": 0.4285333333333333,
+      "fidelity_theory": 0.43200000000000005,
+      "delta": -0.003466666666666729
+    },
+    {
+      "n": 3,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.9,
+      "fidelity_experiment": 0.3402666666666666,
+      "fidelity_theory": 0.33962500000000007,
+      "delta": 0.0006416666666665405
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.0,
+      "fidelity_experiment": 0.9690666666666666,
+      "fidelity_theory": 1.0,
+      "delta": -0.030933333333333368
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.1,
+      "fidelity_experiment": 0.9463333333333334,
+      "fidelity_theory": 0.9805121406249999,
+      "delta": -0.03417880729166656
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.2,
+      "fidelity_experiment": 0.8987333333333333,
+      "fidelity_theory": 0.9489059999999999,
+      "delta": -0.05017266666666664
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.3,
+      "fidelity_experiment": 0.8450666666666665,
+      "fidelity_theory": 0.9021586093750001,
+      "delta": -0.05709194270833362
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.4,
+      "fidelity_experiment": 0.7764666666666667,
+      "fidelity_theory": 0.8392720000000001,
+      "delta": -0.06280533333333338
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.5,
+      "fidelity_experiment": 0.7022666666666667,
+      "fidelity_theory": 0.760986328125,
+      "delta": -0.058719661458333294
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.6,
+      "fidelity_experiment": 0.6033999999999999,
+      "fidelity_theory": 0.669493,
+      "delta": -0.06609300000000007
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.7,
+      "fidelity_experiment": 0.5359333333333334,
+      "fidelity_theory": 0.568147796875,
+      "delta": -0.03221446354166668
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.8,
+      "fidelity_experiment": 0.4393333333333333,
+      "fidelity_theory": 0.46118400000000004,
+      "delta": -0.02185066666666674
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.9,
+      "fidelity_experiment": 0.3356666666666666,
+      "fidelity_theory": 0.3534255156249999,
+      "delta": -0.017758848958333295
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.0,
+      "fidelity_experiment": 0.9706666666666668,
+      "fidelity_theory": 1.0,
+      "delta": -0.02933333333333321
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.1,
+      "fidelity_experiment": 0.9510666666666668,
+      "fidelity_theory": 0.9863932880957031,
+      "delta": -0.03532662142903631
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.2,
+      "fidelity_experiment": 0.8944666666666666,
+      "fidelity_theory": 0.9642054211904764,
+      "delta": -0.06973875452380973
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.3,
+      "fidelity_experiment": 0.8364000000000001,
+      "fidelity_theory": 0.9287174830761719,
+      "delta": -0.09231748307617171
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.4,
+      "fidelity_experiment": 0.7585333333333334,
+      "fidelity_theory": 0.8758693600000002,
+      "delta": -0.11733602666666676
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.5,
+      "fidelity_experiment": 0.6997333333333334,
+      "fidelity_theory": 0.8034735180082776,
+      "delta": -0.10374018467494417
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.6,
+      "fidelity_experiment": 0.6186666666666666,
+      "fidelity_theory": 0.7118944525000002,
+      "delta": -0.09322778583333358
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.7,
+      "fidelity_experiment": 0.5265333333333333,
+      "fidelity_theory": 0.6042477888964845,
+      "delta": -0.07771445556315115
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.8,
+      "fidelity_experiment": 0.4424,
+      "fidelity_theory": 0.48617301333333335,
+      "delta": -0.04377301333333333
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "t": 1,
+      "lambda": 0.9,
+      "fidelity_experiment": 0.3442051282051281,
+      "fidelity_theory": 0.3652338122809709,
+      "delta": -0.021028684075842796
+    }
+  ]
+}

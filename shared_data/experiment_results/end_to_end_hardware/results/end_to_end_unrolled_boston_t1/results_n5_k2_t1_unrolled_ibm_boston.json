@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "n": 5,
+    "k": 2,
+    "t": 1,
+    "n_random": 5000,
+    "shots_per_circuit": 3,
+    "batch_size": 1000,
+    "backend": "ibm_boston",
+    "transpile_seeds": 10,
+    "opt_level": 3
+  },
+  "results": [
+    {
+      "lambda": 0.0,
+      "fidelity": 0.9690666666666666
+    },
+    {
+      "lambda": 0.1,
+      "fidelity": 0.9463333333333334
+    },
+    {
+      "lambda": 0.2,
+      "fidelity": 0.8987333333333333
+    },
+    {
+      "lambda": 0.3,
+      "fidelity": 0.8450666666666665
+    },
+    {
+      "lambda": 0.4,
+      "fidelity": 0.7764666666666667
+    },
+    {
+      "lambda": 0.5,
+      "fidelity": 0.7022666666666667
+    },
+    {
+      "lambda": 0.6,
+      "fidelity": 0.6033999999999999
+    },
+    {
+      "lambda": 0.7,
+      "fidelity": 0.5359333333333334
+    },
+    {
+      "lambda": 0.8,
+      "fidelity": 0.43933333333333335
+    },
+    {
+      "lambda": 0.9,
+      "fidelity": 0.33566666666666667
+    }
+  ]
+}

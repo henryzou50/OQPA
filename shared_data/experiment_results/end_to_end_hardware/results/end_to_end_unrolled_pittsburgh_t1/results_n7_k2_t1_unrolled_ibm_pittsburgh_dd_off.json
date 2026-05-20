@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "n": 7,
+    "k": 2,
+    "t": 1,
+    "dd_mode": "off",
+    "dd_sequence": null,
+    "dd_skip_reset_qubits": null,
+    "n_random": 5000,
+    "shots_per_circuit": 3,
+    "batch_size": 5000,
+    "backend": "ibm_pittsburgh",
+    "transpile_seeds": 10,
+    "opt_level": 3,
+    "job_tags_project": "QPA"
+  },
+  "results": [
+    {
+      "lambda": 0.0,
+      "fidelity": 0.9643333333333332,
+      "job_ids": "d8323bftjchs73bom6s0,d8324r7oha1c73bm6qb0,d832677tjchs73bom9tg,d8327ho0bvlc73d2u6mg,d8328vugbeec73amejs0,d832afvoha1c73bm70b0,d832bt6gbeec73amemq0,d832e6foha1c73bm74bg",
+      "n_batches": 8
+    }
+  ]
+}
