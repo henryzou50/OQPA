@@ -1,0 +1,120 @@
+{
+  "3": [
+    {
+      "path_name": "path_0",
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 20,
+      "depth": 62,
+      "all_seed_2q_depths": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ]
+    },
+    {
+      "path_name": "path_1",
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 20,
+      "depth": 62,
+      "all_seed_2q_depths": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ]
+    }
+  ],
+  "5": [
+    {
+      "path_name": "path_0",
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 40,
+      "depth": 61,
+      "all_seed_2q_depths": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ]
+    },
+    {
+      "path_name": "path_1",
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 40,
+      "depth": 61,
+      "all_seed_2q_depths": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ]
+    },
+    {
+      "path_name": "path_2",
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 40,
+      "depth": 61,
+      "all_seed_2q_depths": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ]
+    },
+    {
+      "path_name": "path_3",
+      "best_seed": 0,
+      "best_2q_depth": 18,
+      "best_2q_gates": 40,
+      "depth": 61,
+      "all_seed_2q_depths": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ]
+    }
+  ]
+}

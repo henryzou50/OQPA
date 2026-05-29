@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "n": 3,
+    "k": 2,
+    "t": 1,
+    "dd_method": "XX",
+    "dd_kind": "runtime",
+    "udd_n_pulses": null,
+    "dd_skip_reset_qubits": true,
+    "n_random": 5000,
+    "shots_per_circuit": 3,
+    "batch_size": 5000,
+    "backend": "ibm_pittsburgh",
+    "transpile_seeds": 10,
+    "opt_level": 3,
+    "job_tags_project": "QPA"
+  },
+  "results": [
+    {
+      "lambda": 0.0,
+      "fidelity": 0.9140666666666666,
+      "job_ids": "d87753op0eas73dlq7og,d877861789is7390h2eg",
+      "n_batches": 2
+    },
+    {
+      "lambda": 0.1,
+      "fidelity": 0.8625333333333333,
+      "job_ids": "d878hp8p0eas73dlrmlg,d87anktg7okc73em2v00",
+      "n_batches": 2
+    },
+    {
+      "lambda": 0.2,
+      "fidelity": 0.8260000000000001,
+      "job_ids": "d87b209789is7390lssg,d87e1o2s46sc73f8386g",
+      "n_batches": 2
+    },
+    {
+      "lambda": 0.3,
+      "fidelity": 0.7737333333333334,
+      "job_ids": "d87e399789is7390ptv0,d87eapdg7okc73em7km0",
+      "n_batches": 2
+    }
+  ]
+}
