@@ -9,6 +9,7 @@ own `README.md` with per-notebook detail.
 | [`unrolled_scaling/`](unrolled_scaling/) | How the **unrolled (static)** QPA circuit scales with the register count `N` — qubit count, transpiled 2Q depth / gate count, and circuit/job cost. No hardware execution. |
 | [`dynamic_transpilation/`](dynamic_transpilation/) | Transpiling the **dynamic** QPA circuit (`if_test` control flow) for hardware. Holds the circuit engine (`qpa_engine.py`) and QASM3 utilities (`utils.py`) shared by the other campaigns. |
 | [`end_to_end_hardware/`](end_to_end_hardware/) | Full fidelity-decay pipeline on **real IBM hardware** — transpilation search, λ sweeps, runtime/QPU-cost analysis, and combined plotting. |
+| [`scaling/`](scaling/) | **Purity-amplification resource estimate** for [arXiv:2409.18167](https://arxiv.org/abs/2409.18167): how transpiled depth / gate count grow with the qubits in `ρ` (`k`) and the amplification order `m` (`N`, `T`), the `F`/`P` gate decompositions, and how fast circuits reach 5k–15k gates. No hardware execution. |
 
 ## Running the notebooks
 
