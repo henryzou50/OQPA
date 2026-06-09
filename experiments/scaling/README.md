@@ -23,12 +23,14 @@ transpilation, written to answer two reviewer questions about a NISQ-era (2026) 
 | Notebook | Purpose |
 |---|---|
 | `transpile_scaling_purity_amplification.ipynb` | Self-contained (no `qiskit_aer` import). Rebuilds the longest-path QPA circuit (mirrors `UnrolledStrategy.build_longest_path` in `../dynamic_transpilation/qpa_engine.py`), decomposes `F`/`P`, and transpiles `k`/`N`/`T` sweeps against `FakeBrisbane` (127-qubit heavy-hex, realistic routing) and the `ibm_boston` basis with all-to-all connectivity (early-FTQC lower bound). |
-| `chem_state_NT_compatibility.ipynb` | Follow-up: adds the **state-preparation cost** of `ρ` (Mario's chemistry numbers, `c_prep(k) ≈ 0.8·k²`) and sweeps `(N, T)` for each chemistry `k ∈ {2,4,6,8,10,12}` to find which amplifier settings are **compatible** — fitting 156 qubits, a soft 2Q/depth budget, and a modest post-selection shot multiplier. Produces a feasibility grid and a recommended `(N, T)` per `k`. |
+| `chem_state_NT_compatibility.ipynb` | Follow-up: adds the **state-preparation cost** of `ρ` (Mario's chemistry numbers, `c_prep(k) ≈ 0.8·k²`) and sweeps `(N, T)` for each chemistry `k ∈ {2,4,6,8,10,12}` to find which amplifier settings are **compatible** — fitting 156 qubits, a soft 2Q/2Q-depth budget, and a modest post-selection shot multiplier. Produces a feasibility grid and a recommended `(N, T)` per `k`. |
+| `lucj_qpa_depth.ipynb` | Plugs the **actual LUCJ ansatz** (via `ffsim`) in as the ρ-prep — the state prep used in IBM SQD/LUCJ demos — and measures full/2Q **depth** of the LUCJ+QPA circuit for the smallest interesting case: a 2-spin **(2e,2o)** active space (4 qubits under Jordan–Wigner). Sweeps `n_reps`/`N`/`T` and the active-space size `k = 4,8,12`. **Requires `ffsim`** (`pip install ffsim`). |
 
-Run with the **`opqa`** kernel (`~/.venvs/opqa`, qiskit 2.3.x). Both transpiler backends load
-offline — no IBM Quantum account or `qiskit_aer` needed.
+Run with the **`opqa`** kernel (`~/.venvs/opqa`, qiskit 2.3.x). The transpiler backends load
+offline — no IBM Quantum account or `qiskit_aer` needed. `lucj_qpa_depth.ipynb` additionally needs
+`ffsim` for the LUCJ state preparation; the other two notebooks are dependency-free.
 
 ## Outputs
 
 Plots are written to [`shared_data/experiment_results/scaling/`](../../shared_data/experiment_results/scaling/):
-`scaling_vs_k.png`, `scaling_vs_N.png`, `scaling_vs_T.png`.
+`scaling_vs_k.png`, `scaling_vs_N.png`, `scaling_vs_T.png`, `chem_cost_split.png`, `lucj_qpa_depth.png`.
